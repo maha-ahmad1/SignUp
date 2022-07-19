@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Poppins",sans-serif;  
+}
+.section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+}
+.section .img
+{
+    position: relative;
+    width: 700px;
+    height: 700px;
+    
+    
+}
+.section .img .p
+{
+    position: absolute;
+    padding: 18vh 9vh;
+    color:#9fa1a6;
+}
+
+
+.section .img .b
+{
+    position: absolute;
+    padding: 15vh 9vh ;
+    color:#9fa1a6;
+
+}
+
+
+.section .img .img-1
+{
+  color:#0274d8;
+  position:absolute;
+  top:50px;
+  width:100%;
+  left:60px;
+  font-size:5vh;
+
+
+}
+
+
+
+.section .img p span
+{
+    color:#0274d8;
+    width:100%;
+    left:60px;
+    font-size:5vh;
+}
+
+
+.section .img img 
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%; 
+    height:100%;  
+    object-fit:cover;
+}
+.section .content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.section .content .form
+{
+    width: 50%;
+    
+}
+.section .content .form h2
+{
+    
+    font-size:2em;
+    margin-bottom: 10px;
+    display: inline-block;
+    letter-spacing:1px;
+}
+
+.section .content .form h6
+{
+    color:#555a67;
+    font-size: 13px;
+}
+
+
+.section .content .form .language{
+    margin-bottom: 15vh;
+    margin-left:40vh;
+    border:none;
+}
+
+.section .content .form .input
+{
+    position:relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section .content .form .input i
+{
+    position:absolute;
+    right: 20px;
+    top:6vh;
+    color:#adaeb1;
+}
+
+.section .content .form .input span
+{
+    margin-bottom:5px;
+    display:inline-block;
+    color:#555a67;
+    font-weight:700;
+    font-size: 15px;
+}
+.section .content .form .input input
+{
+    width: 100%;
+    padding:10px 20px;
+    font-weight: 400;
+    font-size: 15px;
+    color:#047be3;
+    background:transparent;
+    border-radius: 5px;
+     border: 1px solid #ccc;
+
+}
+
+.section .content .form .input input[type="submit"]
+{
+    background: #047be3;
+    color:#fff;
+    outline: none;
+    border: 1px solid #ccc;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.section .content .form .input input[type="submit"]:hover
+{
+background: #0274d8;
+}
+
+
+
+.section .content  .form .input .btn {
+    position:relative;
+    padding: 0 20vh;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+
+}
+.section .content  .form .input .btn i{
+    position:absolute;
+    right:35vh;
+    top:1vh;
+    font-size:20px;
+    color:#047be3;
+
+}
+.section .content .form h6 a
+{
+    color:#047be3;
+}
+
+
+
+
+@media (max-width: 768px)
+{
+    .section .img
+    {
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    }
+    .section .content
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height:100%;
+        z-index: 1;
+    }
+    .section .content .form
+    {
+        width: 100%;
+        padding: 40px;
+        background: rgb(255 255 255 / 0.8);
+        margin:50px;
+    }
+}
+
+
+
+
+
